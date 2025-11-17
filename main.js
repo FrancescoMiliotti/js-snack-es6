@@ -17,9 +17,19 @@ const bikelist = [
 
 for (let i = 0; i < bikelist.length; i++) {
     const bike = bikelist[i];
+    console.log("bike: ", bike)
+    const bikeWeight = bike.weight
+    console.log("weight ", bikeWeight);
 
-    console.log(bike);
-      
-  
+
+
+
+
+
 
 }
+
+
+    
+
+
