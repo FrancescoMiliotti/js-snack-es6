@@ -15,7 +15,13 @@ const bici = [
 
     "nome" : "gravel",
     "peso" : 10
+},
+{
+
+    "nome" : "corsa",
+    "peso" : 8
 }
+
 
 
 ];
