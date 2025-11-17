@@ -1,29 +1,25 @@
-const bici = [
+const bikelist = [
 
-{
-    "nome" : "mbt",
-    "peso" : 20
+    { name: "mbt", weight: 20},
 
-},
-
-{
-
-    "nome" : "bmx",
-    "peso" : 15
-},
-{
-
-    "nome" : "gravel",
-    "peso" : 10
-},
-{
-
-    "nome" : "corsa",
-    "peso" : 8
-}
-
+    { name: "bmx", weight: 15},
+    
+    { name: "gravel", weight: 10},
+    
+    { name: "corsa", weight: 8}
 
 
 ];
 
-console.log(bici);
+
+
+    
+
+for (let i = 0; i < bikelist.length; i++) {
+    const bike = bikelist[i];
+
+    console.log(bike);
+      
+  
+
+}
