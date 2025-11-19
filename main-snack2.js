@@ -18,6 +18,8 @@ const teams = [
 
 console.log(teams)
 
+const teamsName = []
+
 
 for (let i = 0; i < teams.length; i++) {
     const team = teams [i];
@@ -28,4 +30,10 @@ for (let i = 0; i < teams.length; i++) {
     team.falliSubiti = getRandomNumber(20 , 70);
 
     console.log(i, team);
+
+    teamsName.push(team.name);
+
+    
 }
+
+console.log("I nomi delle squadre sono :",teamsName)
